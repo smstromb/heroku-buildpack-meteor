@@ -2,7 +2,7 @@
 
 BUILD_DIR=$1
 
-echo "PING!!!!!"
+echo "Ping!"
 
 cat <<-YAML
 ---
@@ -11,3 +11,4 @@ addons:
 config_vars:
 default_process_types:
   web: 
+YAML
