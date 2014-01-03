@@ -39,6 +39,9 @@ build() {
   )
 }
 
+echo $BUILD_DIR
+echo $CACHE_DIR
+
 [ ! -d $BUILD_DIR ] && mkdir $BUILD_DIR
 [ ! -d $CACHE_DIR ] && mkdir $CACHE_DIR
 
